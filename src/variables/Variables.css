@@ -1,0 +1,73 @@
+/* ------------------------------ Fonts import ------------------------------ */
+@import url("https://use.typekit.net/gbi4kch.css");
+/* ------------------------------ Variables ------------------------------ */
+body {
+  background: #21272A;
+  color: #D0D0D1;
+  font-family: ubuntu, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.25rem;
+  line-height: 1.4;
+  margin: 40px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #FFFFFF;
+  font-family: ubuntu, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1;
+}
+
+h1 {
+  font-size: 7.594rem;
+}
+
+h2 {
+  font-size: 5.063rem;
+}
+
+h3 {
+  font-size: 3.375rem;
+}
+
+h4 {
+  font-size: 2.25rem;
+}
+
+button {
+  background: linear-gradient(135deg, #8a3ffc 0%, #d02670 100%);
+  color: #FFFFFF;
+  font-family: ubuntu-mono, monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: 1px solid #21272A;
+  padding: 10px 20px;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+button:hover {
+  border: 1px solid #B584FD;
+}
+
+.horizontalLine {
+  position: absolute;
+  border-left: 3px solid linear-gradient(180deg, #8a3ffc 0%, #d02670 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#8a3ffc), to(#d02670));
+  background: linear-gradient(180deg, #8a3ffc 0%, #d02670 100%);
+  width: 3px;
+}
+
+.horizontalLine p {
+  padding-left: 15px;
+  width: 350px;
+}
+/*# sourceMappingURL=variables.css.map */

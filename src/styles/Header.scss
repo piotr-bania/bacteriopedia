@@ -1,0 +1,19 @@
+@import '../variables/Variables.css';
+
+.logo {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+}
+
+.heading {
+    position: absolute;
+    left: 50vw;
+    top: 10vh;
+}
+
+.horizontalLine {
+    position: absolute;
+    left: 15vw;
+    bottom: 10vh;
+}

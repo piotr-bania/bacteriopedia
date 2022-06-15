@@ -1,0 +1,83 @@
+/* ------------------------------ Fonts import ------------------------------ */
+@import url('https://use.typekit.net/gbi4kch.css');
+
+/* ------------------------------ Variables ------------------------------ */
+
+$purple: #8A3FFC;
+$purpleLight: #B584FD;
+$magenta: #D02670;
+$green: #40FC8B;
+$darkGrey: #21272A;
+$midGrey: #697077;
+$lightGrey: #D0D0D1;
+$white: #FFFFFF;
+$gradient: linear-gradient(135deg, rgba(138, 63, 252, 1) 0%, rgba(208, 38, 112, 1) 100%);
+$gradientVertical: linear-gradient(180deg, rgba(138, 63, 252, 1) 0%, rgba(208, 38, 112, 1) 100%);
+
+body {
+    background: $darkGrey;
+    color: $lightGrey;
+    font-family: ubuntu, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.25rem;
+    line-height: 1.4;
+    margin: 40px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: $white;
+    font-family: ubuntu, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1;
+}
+
+h1 {
+    font-size: 7.594rem;
+}
+
+h2 {
+    font-size: 5.063rem;
+}
+
+h3 {
+    font-size: 3.375rem;
+}
+
+h4 {
+    font-size: 2.25rem;
+}
+
+button {
+    background: $gradient;
+    color: $white;
+    font-family: ubuntu-mono, monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: 1px solid $darkGrey;
+    padding: 10px 20px;
+    transition: all 0.4s ease-in-out;
+
+    &:hover {
+        border: 1px solid $purpleLight;
+    }
+}
+
+.horizontalLine {
+    position: absolute;
+    border-left:  3px solid $gradientVertical;
+    background: linear-gradient(180deg, rgba(138,63,252,1) 0%, rgba(208,38,112,1) 100%);
+    width: 3px;
+
+    p {
+        padding-left: 15px;
+        width: 350px;
+    }
+}
